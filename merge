@@ -1,0 +1,5 @@
+def merge(xs: IntList, ys: IntList): IntList {
+    xs ++ ys
+}
+
+merge(Cons(2, Cons(5, Cons(7, Nil))), Cons(3, Cons(5, Nil)))

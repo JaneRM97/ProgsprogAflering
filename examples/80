@@ -1,0 +1,8 @@
+//if (!false) 1 else 2
+//0 + 1 == 0
+//1 - 1 == 0
+//(true, 0)._1
+{def fac(n: Int): Int =
+if (n == 0) 1 else n * fac(n - 1);
+fac(5)
+}
